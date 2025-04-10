@@ -9,5 +9,6 @@ $(function(){
         $('.video > *').eq(idx).fadeIn()
         $('.description > *').eq(idx).fadeIn().siblings().fadeOut()
 
+        
     })
 })

@@ -16,6 +16,7 @@
     #wrap #right .contbox {
         width: 40%;
         height: 100%;
+        overflow: hidden;
     }
     #wrap #right .contbox a {
         width: 40%;
@@ -90,6 +91,95 @@
     #wrap #left .screen .contactmepage .container .form input {
         height: 2.5rem;
         background-size: 2rem;
+    }
+    .description div h2 {
+        font-size: 1.8rem;
+    }
+    .description div p {
+        margin-bottom: 1rem;
+    }
+
+}
+
+@media screen and (max-width : 425px) {
+    .glitch-wrapper {
+        margin: 2.125rem 1rem;
+    }
+    #wrap #right {
+        width:100%;
+        height: 100%;
+        overflow: hidden;
+        flex-direction: column;
+    }
+    #wrap #left .screen .video iframe {
+        padding: 1rem;
+    }
+    #wrap #left .screen .aboutpage .container {
+        padding: 1rem;
+        background: transparent;
+    }
+    #wrap #left .screen .aboutpage .about-cont h1 {
+        font-size: 1rem;
+        margin-bottom: 0.5rem;
+    }
+    #wrap #left .screen .aboutpage .about-cont p {
+        font-size: 0.7rem;
+    }
+    #wrap #left .screen .aboutpage .about-cont p:last-child {
+        margin-bottom: 0.5rem;
+    }
+    #wrap #left .screen .aboutpage .about-cont ul {
+        font-size: 0.7rem;
+    }
+    #wrap #left .screen .aboutpage .about-cont ul {
+        margin-bottom: 0.5rem;
+    }
+    #wrap #left .screen .aboutpage .aboutpage-left {
+        width: 50%;
+    }
+    #wrap #left .screen .aboutpage .aboutpage-right {
+        width: 50%;
+        padding-left: 0.8rem;
+    }
+    #wrap #left .screen .aboutpage .about-cont .careers li {
+      display: flex;
+      flex-direction: column;
+      font-size: 0.7rem;
+    }
+    #wrap #right .contbox {
+        width: 100%;
+        height: 30px;
+        line-height: 25px;
+        overflow: hidden;
+        display: flex;
+        justify-content: space-between;
+    }
+    #wrap #right .contbox a {
+        width: calc(100% / 5);
+        height: 100%;
+    }
+    #wrap #right .contbox a img {
+        width: 100%;
+        object-fit: cover;
+    }
+    #wrap #right .contbox a span {
+    font-size: 1rem;
+    left:0.5rem; top: 0;
+    }
+    #wrap #right .vhsbox {
+        width: 100%;
+        height: 100%;
+    }
+    #wrap #right .vhsbox .sizing img {
+        /* width: 100%; */
+        /* height: 100%; */
+        object-fit: cover;
+        /* display: none; */
+    }
+    .description div  {
+        width: 100%;
+        height: 100%;
+        top: 0; left: 0;
     }
     .description div h2 {
         font-size: 1.8rem;
